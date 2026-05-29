@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pavel Bobrik (HappySlucker) - Professional PHP Backend Developer specializing in Laravel and data-intensive systems">
+    <meta name="author" content="HappySlucker">
+    <title>Pavel Bobrik | PHP Developer</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pavel Bobrik (HappySlucker) | PHP Developer Portfolio">
+    <meta property="og:description" content="Professional PHP Backend Developer specializing in Laravel and data-intensive systems">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+</head>
+<body>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursor-follower"></div>
+
+<nav class="nav" id="nav">
+    <div class="nav-container">
+        <a href="#hero" class="nav-logo">
+            <span class="logo-text">&lt;HS/&gt;</span>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+<section class="hero" id="hero">
+    <div class="hero-bg">
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+    </div>
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Available for opportunities
+        </div>
+        <h1 class="hero-title">
+            <span class="title-line">Pavel Bobrik</span>
+        </h1>
+        <p class="hero-subtitle">Backend Developer.
+            Crafting robust server-side solutions with <span class="highlight-text">PHP</span> &
+            architecting <span class="highlight-text">data-intensive systems</span> that scale.
+        </p>
+        <div class="hero-name">
+            <span class="name-nickname">HappySlucker</span>
+        </div>
+        <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+                <span>View My Work</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+                <span>Get In Touch</span>
+            </a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number" data-target="4">0</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+        </div>
+    </div>
+    <div class="hero-scroll">
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">Building the <span class="gradient-text">Backend</span> of Tomorrow</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">
+                    A proactive and meticulous <strong>PHP Backend Developer</strong> specializing in
+                    <strong>Laravel</strong> and <strong>data-intensive systems</strong>.
+                    Experienced in the full development lifecycle — from designing database
+                    architecture and creating new features to refactoring legacy code and
+                    closing security vulnerabilities.
+                </p>
+                <p>
+                    I am recognized for my strong work ethic, responsibility, and a genuine
+                    passion for technology. I am never afraid of difficult tasks and view them
+                    as opportunities for growth. Eager to apply my skills and master new tools
+                    and frameworks to build efficient, reliable backend solutions.
+                </p>
+            </div>
+            <div class="about-skills">
+                <h3 class="skills-title">Tech Stack</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>Laravel</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>Redis</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>REST APIs</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>Linux</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>jQuery</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>OOP</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <span>CSS Flexbox</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="experience" id="experience">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Experience</span>
+            <h2 class="section-title">My Professional <span class="gradient-text">Journey</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"><span class="marker-year">2025</span></div>
+                <div class="timeline-content">
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <div class="company-info">
+                                <h3 class="company-name">Unitsky String Technologies</h3>
+                                <span class="company-location">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Minsk, Belarus · On-site
+                                    </span>
+                            </div>
+                            <div class="employment-type">Full-time</div>
+                        </div>
+                        <div class="card-role">PHP Developer</div>
+                        <div class="card-duration">Apr 2025 - Mar 2026 · 1 yr</div>
+                        <ul class="card-responsibilities">
+                            <li>Developed web applications using PHP and the Laravel framework.</li>
+                            <li>Designed and optimized database architecture (MySQL).</li>
+                            <li>Developed new modules and features for existing Laravel-based projects.</li>
+                            <li>Refactored, improved, and provided long-term support for legacy code.</li>
+                            <li>Identified and fixed security vulnerabilities in the codebase (e.g., SQL Injection, XSS).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"><span class="marker-year">2022</span></div>
+                <div class="timeline-content">
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <div class="company-info">
+                                <h3 class="company-name">Artificial Intelligence Development Startup</h3>
+                                <span class="company-location">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Minsk, Belarus · Remote
+                                    </span>
+                            </div>
+                            <div class="employment-type">Full-time</div>
+                        </div>
+                        <div class="card-role">PHP Developer</div>
+                        <div class="card-duration">Mar 2022 - Nov 2024 · 2 yrs 9 mos</div>
+                        <ul class="card-responsibilities">
+                            <li>Developed server software for parsing data from football matches, as well as e-sports disciplines.</li>
+                            <li>Designed database structure and optimized devops processes.</li>
+                            <li>Wrote SQL and PHP scripts for merging databases, and cleaning logical resource errors.</li>
+                            <li>Integrated with external systems (API) and solved performance optimization problems.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"><span class="marker-year">2021</span></div>
+                <div class="timeline-content">
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <div class="company-info">
+                                <h3 class="company-name">Atlant-M, international automobile holding</h3>
+                                <span class="company-location">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Minsk, Belarus · Remote
+                                    </span>
+                            </div>
+                            <div class="employment-type">Full-time</div>
+                        </div>
+                        <div class="card-role">PHP Developer</div>
+                        <div class="card-duration">Jul 2021 - Sep 2021 · 3 mos</div>
+                        <ul class="card-responsibilities">
+                            <li>Developed the architectural part of the online sales platform for new and used cars.</li>
+                            <li>Eliminated problems with data integration from car dealer systems and external catalogs.</li>
+                            <li>Integration with external systems (API, SAP, Bitrix 24).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Projects</span>
+            <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+        </div>
+        <div class="projects-grid">
+            <article class="project-card featured">
+                <div class="project-image">
+                    <div class="image-placeholder">
+                        <div class="code-preview">
+                            <code>
+                                <span class="code-keyword">use</span> <span class="code-class">HappySlucker\AAsync\Async</span>;<br><br>
+                                <span class="code-comment">// The Future Pattern with JS-like chaining</span><br>
+                                <span class="code-variable">$future</span> = <span class="code-class">Async</span>::<span class="code-function">cpu</span>()<br>
+                                &nbsp;&nbsp;-><span class="code-function">run</span>(<span class="code-keyword">static</span> <span class="code-keyword">fn</span>(): <span class="code-keyword">int</span> => <span class="code-function">foo</span>())<br>
+                                &nbsp;&nbsp;-><span class="code-function">then</span>(<span class="code-keyword">static</span> <span class="code-keyword">fn</span>(<span class="code-keyword">int</span> <span class="code-variable">$result</span>): <span class="code-keyword">int</span> => <span class="code-variable">$result</span> * <span class="code-number">5</span>);<br><br>
+                                <span class="code-keyword">echo</span> <span class="code-variable">$future</span>-><span class="code-function">await</span>();
+                            </code>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/HappySlucker/a-async" target="_blank" rel="noopener noreferrer" class="overlay-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">PHP 8.3+</span>
+                        <span class="tag">Async / Fibers</span>
+                        <span class="tag">PCNTL</span>
+                        <span class="tag">Promises</span>
+                    </div>
+                    <h3 class="project-title">A-Async [Almost Async]</h3>
+                    <p class="project-description">
+                        A high-performance, lightweight PHP library designed for parallel processing and asynchronous execution.
+                        Leverages PCNTL forking for CPU-bound tasks and PHP Fibers for I/O-bound operations. Implements JS-style
+                        <code>Future</code> objects returning new instances on <code>then()</code> chains for non-blocking operations.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/HappySlucker/a-async" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Contact</span>
+            <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p class="contact-text">
+                    I'm always open to discussing new projects, creative ideas,
+                    or opportunities to be part of your vision. Feel free to
+                    reach out through any of the channels below.
+                </p>
+                <div class="contact-links">
+                    <a href="https://t.me/HappySlucker" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <div class="link-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.223-.548.223l.188-2.85 5.18-4.686c.223-.195-.054-.304-.346-.11l-6.4 4.02-2.76-.865c-.6-.188-.614-.602.126-.89l10.79-4.16c.5-.195 1.01.116.844.912z"/></svg>
+                        </div>
+                        <span>Telegram: @HappySlucker</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/happyslucker/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <div class="link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </div>
+                        <span>LinkedIn: Pavel Bobrik</span>
+                    </a>
+                    <a href="https://discordapp.com/users/1228810196822917267" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <div class="link-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg>
+                        </div>
+                        <span>Discord: 1228810196822917267</span>
+                    </a>
+                    <a href="https://steamcommunity.com/id/HappySlucker/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <div class="link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M11.979 0C5.353 0 0 5.353 0 11.979c0 6.627 5.353 11.979 11.979 11.979 6.627 0 11.979-5.352 11.979-11.979C23.958 5.353 18.606 0 11.979 0zm7.193 11.696c-.34.023-.664.127-.962.296l-2.42-3.486c.032-.19.053-.384.053-.585 0-1.89-1.532-3.421-3.421-3.421-1.888 0-3.42 1.532-3.42 3.42 0 1.89 1.533 3.422 3.422 3.422.385 0 .753-.066 1.096-.182l1.636 2.378c-.035.17-.056.345-.056.523 0 1.83 1.484 3.314 3.313 3.314 1.83 0 3.313-1.484 3.313-3.314 0-1.83-1.483-3.314-3.313-3.314-.08 0-.158.005-.236.014zm-3.551.986l2.366 3.409c-.43.435-1.03.702-1.693.702-1.303 0-2.36-1.057-2.36-2.36s1.057-2.36 2.36-2.36c.465 0 .899.136 1.264.368l-1.937-2.759z"/></svg>
+                        </div>
+                        <span>Steam: HappySlucker</span>
+                    </a>
+                    <a href="https://github.com/HappySlucker" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <div class="link-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </div>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-visual">
+                <div class="visual-code">
+                        <pre><code><span class="code-keyword">&lt;?php</span>
+
+<span class="code-keyword">class</span> <span class="code-class">Developer</span> {
+    <span class="code-keyword">public</span> <span class="code-keyword">function</span> <span class="code-function">connect</span>(): <span class="code-keyword">void</span>
+    {
+        <span class="code-variable">$name</span> = <span class="code-string">"Pavel Bobrik"</span>;
+        <span class="code-variable">$nickname</span> = <span class="code-string">"HappySlucker"</span>;
+
+        <span class="code-keyword">echo</span> <span class="code-string">"Let's build something amazing!"</span>;
+    }
+}
+
+<span class="code-keyword">new</span> <span class="code-class">Developer</span>()->connect();</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="logo-text">&lt;HS/&gt;</span>
+                <p class="footer-tagline">Building robust backend solutions, one line at a time.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://t.me/HappySlucker" target="_blank" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.223-.548.223l.188-2.85 5.18-4.686c.223-.195-.054-.304-.346-.11l-6.4 4.02-2.76-.865c-.6-.188-.614-.602.126-.89l10.79-4.16c.5-.195 1.01.116.844.912z"/></svg></a>
+                <a href="https://www.linkedin.com/in/happyslucker/" target="_blank" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                <a href="https://discordapp.com/users/1228810196822917267" target="_blank" aria-label="Discord"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg></a>
+                <a href="https://steamcommunity.com/id/HappySlucker/" target="_blank" aria-label="Steam"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M11.979 0C5.353 0 0 5.353 0 11.979c0 6.627 5.353 11.979 11.979 11.979 6.627 0 11.979-5.352 11.979-11.979C23.958 5.353 18.606 0 11.979 0zm7.193 11.696c-.34.023-.664.127-.962.296l-2.42-3.486c.032-.19.053-.384.053-.585 0-1.89-1.532-3.421-3.421-3.421-1.888 0-3.42 1.532-3.42 3.42 0 1.89 1.533 3.422 3.422 3.422.385 0 .753-.066 1.096-.182l1.636 2.378c-.035.17-.056.345-.056.523 0 1.83 1.484 3.314 3.313 3.314 1.83 0 3.313-1.484 3.313-3.314 0-1.83-1.483-3.314-3.313-3.314-.08 0-.158.005-.236.014zm-3.551.986l2.366 3.409c-.43.435-1.03.702-1.693.702-1.303 0-2.36-1.057-2.36-2.36s1.057-2.36 2.36-2.36c.465 0 .899.136 1.264.368l-1.937-2.759z"/></svg></a>
+                <a href="https://github.com/HappySlucker" target="_blank" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year">2026</span> Pavel Bobrik (HappySlucker). All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
