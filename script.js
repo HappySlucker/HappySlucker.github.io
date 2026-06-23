@@ -214,7 +214,7 @@
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 animateCodeBlocks();
-                visualCodeObserver.unobserve(entry.target);
+                visualCodeObserver.disconnect();
             }
         });
     }, { threshold: 0.3 });
